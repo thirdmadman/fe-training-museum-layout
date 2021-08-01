@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Welcome to the Louvre</title>
-</head>
-<body>
-    <h1 class="visually-hidden">Welcome to the Louvre</h1>
-
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="visually-hidden">Welcome to the Louvre</h1>
+      <header>
+        <div class="header-logo"><img src="" alt="Louvre logo" /></div>
+        <nav>
+          <ul>
+            <link>
+              <a href="/" class="nav-link">Visiting</a>
+              <a href="/" class="nav-link">Explore</a>
+              <a href="/" class="nav-link">Video</a>
+              <a href="/" class="nav-link">Tickets</a>
+              <a href="/" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="welcome">
+          <h2>Welcome to the Louvre</h2>
+          <p>From the castle to the museum</p>
+          <button>Discover the Louvre</button>
+        </section>
+        <section class="virtual-tour">
+          <h2>Virtual tour</h2>
+          <div class="galery">
+              <div class="galery-card">
+                  <h3 class="galery-card__title">Royal Palace</h3>
+                  <p class="galery-card__subtitle">360° Virtual Tour</p>
+                  <p class="galery-card__text">Google Street Panorama View</p>
+              </div>
+              <div class="galery-card">
+                <h3 class="galery-card__title">Denon Wing</h3>
+                <p class="galery-card__subtitle">360° Virtual Tour</p>
+                <p class="galery-card__text">Google Street Panorama View</p>
+            </div>
+            <div class="galery-card">
+                <h3 class="galery-card__title">Colonnade Perrault</h3>
+                <p class="galery-card__subtitle">360° Virtual Tour</p>
+                <p class="galery-card__text">Google Street Panorama View</p>
+            </div>
+            <div class="galery-card">
+                <h3 class="galery-card__title">Greek hall</h3>
+                <p class="galery-card__subtitle">360° Virtual Tour</p>
+                <p class="galery-card__text">Google Street Panorama View</p>
+            </div>
+            <div class="galery-card">
+                <h3 class="galery-card__title">Mona Lisa</h3>
+                <p class="galery-card__subtitle">360° Virtual Tour</p>
+                <p class="galery-card__text">Google Street Panorama View</p>
+            </div>
+            <div class="galery-card">
+                <h3 class="galery-card__title">Night Palace</h3>
+                <p class="galery-card__subtitle">360° Virtual Tour</p>
+                <p class="galery-card__text">Google Street Panorama View</p>
+            </div>
+          </div>
+        </section>
+        <section class="picture-explore">
+          <h2>Picture explore</h2>
+          <article>
+              <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+              <p>It was cleaned in 1984 to remove a <mark>"yellow veil"</mark> of dust that had gathered since the previous restoration in the 19th century.</p>
+              <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+          </article>
+          <img src="" alt="Las Meninas">
+        </section>
+        <section class="video-journey">
+            <div class="video-journey-video">
+                <video src="video.ogv" controls></video> 
+            </div>
+            <div class="video-journey-text" width="1440" height="714">
+                <h2>Video journey</h2>
+                <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+            </div>
+        </section>
+        <section class="buy-tickets">
+          <h2>Buy tickets</h2>
+          <img src="" alt="nice boobs">
+          <form class="buy-tickets-form">
+            <label for="ticket_type">
+                <p>Ticket Type</p>
+                <input type="radio" id="ticket_type" name="perm_ex" value="Permanent exhibition" checked>
+                <input type="radio" id="ticket_type" name="temp_ex" value="Temporary exhibition">
+                <input type="radio" id="ticket_type" name="combo_ex" value="Combined Admission">
+            </label>
+            <label for="ticket_amount">
+                <p>Amount</p>
+                <input type="number" id="ticket_amount" name="basic_18" value="1">
+                <input type="number" id="ticket_amount" name="senier_65" value="1">
+            </label>
+            <div class="buy-tickets-cost">Total €<div class="buy-tickets-cost__number">220</div></div>
+            <input class="buy-tickets-form__submit-button" type="sumbit" value="Buy Now">
+          </form>
+        </section>
+        <section class="contacts">
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+              <div class="contacts-list__title">
+                  <p>Palais Royal</p>
+                  <p>Musee du Louvre</p>
+              </div>
+              <li class="contacts-list__item"><div>address:</div><a>75001 Paris, France</a></li>
+              <li class="contacts-list__item"><div>phone:</div><a href="tel:+33(0) 1 40 20 50 50">+33(0) 1 40 20 50 50</a></li>
+              <li class="contacts-list__item"><div>mail:</div><a href="mailto:info@louvre.fr">info@louvre.fr</a></li>
+          </ul>
+          <img src="" alt="map">
+        </section>
+      </main>
+      <footer>
+          <div class="footer-logo">
+              <img src="" alt="logo">
+              <p class="footer-logo__text">Louvre</p>
+          </div>
+          <nav>
+              <ul>
+                  <li>Welcome</li>
+                  <li>Visiting</li>
+                  <li>Explore</li>
+                  <li>Video</li>
+                  <li>Tickets</li>
+                  <li>Contacts</li>
+              </ul>
+          </nav>
+          <div class="footer-social">
+              <Ul>
+                  <li><a href="#"><img src="" alt="Youtube"></a></li>
+                  <li><a href="#"><img src="" alt="Instagram"></a></li>
+                  <li><a href="#"><img src="" alt="Facebook"></a></li>
+                  <li><a href="#"><img src="" alt="Twitter"></a></li>
+                  <li><a href="#"><img src="" alt="Pinterest"></a></li>
+              </Ul>
+          </div>
+      </footer>
+    </div>
+  </body>
 </html>
