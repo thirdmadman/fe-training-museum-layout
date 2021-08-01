@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    line-height: 180%;
+  }
+  
+  .container {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    overflow: hidden !important;
+  }
