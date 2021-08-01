@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +7,13 @@
   }
   
   body {
-    font-family: "Roboto", sans-serif;
     height: 100vh;
     line-height: 180%;
+    font-family: 'Forum', cursive;
   }
   
   .container {
-    max-width: 1012px;
+    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -25,4 +27,18 @@
     padding: 0 !important;
     clip: rect(0 0 0 0) !important;
     overflow: hidden !important;
+  }
+
+  .container--header{
+      background-color: #030303;
+      color: #ffffff;
+      display: flex;
+  }
+
+  .louvre-logo {
+      height: 50px;
+  }
+  .louvre-logo__text {
+      font-size: 28px;
+      line-height: 50px;
   }
