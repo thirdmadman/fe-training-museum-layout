@@ -1,0 +1,1 @@
+document.querySelector(".agree-button").addEventListener("click", () => document.querySelector('.reminder').style.visibility = "hidden");

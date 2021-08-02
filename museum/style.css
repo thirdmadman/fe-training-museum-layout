@@ -1,44 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    height: 100vh;
-    line-height: 180%;
-    font-family: 'Forum', cursive;
-  }
-  
-  .container {
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    margin: -1px !important;
-    border: 0 !important;
-    padding: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    overflow: hidden !important;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .container--header{
-      background-color: #030303;
-      color: #ffffff;
-      display: flex;
-  }
+body {
+  height: 100vh;
+  line-height: 180%;
+  font-family: "Roboto", sans-serif;
+  font-family: "Forum", cursive;
+}
 
-  .louvre-logo {
-      height: 50px;
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+header {
+  background-color: #030303;
+  color: #ffffff;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  align-items: center;
+}
+
+.louvre-logo {
+  font-family: "Forum", cursive;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.louvre-logo__text {
+  font-size: 28px;
+  line-height: 50px;
+}
+.header-navigation {
+  height: 50px;
+  width: 720px;
+}
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+ul.navigation-list {
+}
+
+ul.navigation-list {
+}
+
+.navigation-list__item {
+}
+
+.navigation-list__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.welcome {
+
+min-height: 750px;
+
+background: #030303;
+
+color: #ffffff;
+}
+
+.virtual-tour {
+
+}
+
+.picture-explore {
+    
+}
+
+
+.reminder {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #ffffffed;
   }
-  .louvre-logo__text {
-      font-size: 28px;
-      line-height: 50px;
+  
+  .reminder__content {
+    max-width: 640px;
+    line-height: 26px;
+    position: relative;
+  }
+  
+  .reminder__title {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .reminder__description {
+    padding: 5px;
+  }
+  
+  .reminder__description > span {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .agree-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+  }
+  .agree-button:hover {
+    cursor: pointer;
+    color: red;
   }
