@@ -53,6 +53,7 @@ header {
 .louvre-logo__text {
   font-size: 28px;
   line-height: 50px;
+  margin-left: 20px;
 }
 .header-navigation {
   height: 50px;
@@ -84,61 +85,105 @@ ul.navigation-list {
 }
 
 .welcome {
-
-min-height: 750px;
-
-background: #030303;
-
-color: #ffffff;
+  min-height: 750px;
+  background: #030303 url(assets/img/background.jpg) right no-repeat;
+  color: #ffffff;
 }
 
-.virtual-tour {
+.welcome__title {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
+.welcome__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  margin-top: 26px;
+}
+
+.welcome__button {
+  background: #710707;
+  border-radius: 10px;
+  border: none;
+  padding: 24px 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 76px;
+}
+
+.container--welcome {
+  
+padding-top: 114px;
+}
+
+
+.virtual-tour {
 }
 
 .picture-explore {
-    
 }
 
 
+
+
+
+
+
+
+
+
 .reminder {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: #ffffffed;
-  }
-  
-  .reminder__content {
-    max-width: 640px;
-    line-height: 26px;
-    position: relative;
-  }
-  
-  .reminder__title {
-    padding: 20px;
-    font-size: 18px;
-  }
-  
-  .reminder__description {
-    padding: 5px;
-  }
-  
-  .reminder__description > span {
-    display: block;
-    margin-top: 10px;
-  }
-  
-  .agree-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: none;
-    border: none;
-  }
-  .agree-button:hover {
-    cursor: pointer;
-    color: red;
-  }
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffffed;
+}
+
+.reminder__content {
+  max-width: 640px;
+  line-height: 26px;
+  position: relative;
+}
+
+.reminder__title {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.reminder__description {
+  padding: 5px;
+}
+
+.reminder__description > span {
+  display: block;
+  margin-top: 10px;
+}
+
+.agree-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+}
+.agree-button:hover {
+  cursor: pointer;
+  color: red;
+}

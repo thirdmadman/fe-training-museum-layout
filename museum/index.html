@@ -18,9 +18,8 @@
 
         <div class="reminder__description">
           <p>
-            As you may see this task in progress. It may be that I won't
-            complete it in deadline, but as it said this task important for next
-            course, so I going to make it anyway, even after deadline.
+            As you may see this task in progress. It may be that I won't complete it in deadline, but as it said this task important for next course, so I going
+            to make it anyway, even after deadline.
           </p>
           <div class="agree-button">[X]</div>
         </div>
@@ -31,7 +30,7 @@
     <header>
       <div class="container container--header">
         <div class="louvre-logo">
-          <img src="" alt="Louvre logo" />
+          <img src="assets/svg/logo.svg" alt="Louvre logo" />
           <div class="louvre-logo__text">Louvre</div>
         </div>
         <nav class="header-navigation">
@@ -59,7 +58,8 @@
     <main>
       <section id="welcome" class="welcome">
         <div class="container container--welcome">
-          <h2 class="welcome__title">Welcome to the Louvre</h2>
+          <h2 class="welcome__title">Welcome</h2>
+          <h2 class="welcome__title">to the Louvre</h2>
           <p class="welcome__subtitle">From the castle to the museum</p>
           <button class="welcome__button">Discover the Louvre</button>
         </div>
@@ -69,31 +69,37 @@
           <h2 class="virtual-tour__title">Virtual tour</h2>
           <div class="galery-grid">
             <div class="galery-card">
+              <img src="assets/img/VT1.jpg" alt="Royal Palace">
               <h3 class="galery-card__title">Royal Palace</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
             </div>
             <div class="galery-card">
+              <img src="assets/img/VT2.jpg" alt="Denon Wing">
               <h3 class="galery-card__title">Denon Wing</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
             </div>
             <div class="galery-card">
+              <img src="assets/img/VT3.jpg" alt="Colonnade Perrault">
               <h3 class="galery-card__title">Colonnade Perrault</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
             </div>
             <div class="galery-card">
+              <img src="assets/img/VT4.jpg" alt="Greek hall">
               <h3 class="galery-card__title">Greek hall</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
             </div>
             <div class="galery-card">
+              <img src="assets/img/VT5.jpg" alt="Mona Lisa">
               <h3 class="galery-card__title">Mona Lisa</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
             </div>
             <div class="galery-card">
+              <img src="assets/img/VT6.jpg" alt="Night Palace">
               <h3 class="galery-card__title">Night Palace</h3>
               <p class="galery-card__subtitle">360° Virtual Tour</p>
               <p class="galery-card__text">Google Street Panorama View</p>
@@ -105,21 +111,11 @@
         <div class="container container--picture-explore">
           <article>
             <h2 class="picture-explore__title">Picture explore</h2>
-            <p>
-              Las Meninas is a 1656 painting by Diego Velázquez, the leading
-              artist of the Spanish Golden Age.
-            </p>
-            <p>
-              It was cleaned in 1984 to remove a <mark>"yellow veil"</mark> of
-              dust that had gathered since the previous restoration in the 19th
-              century.
-            </p>
-            <p>
-              The cleaning provoked furious protests, not because the picture
-              had been damaged in any way, but because it looked different.
-            </p>
+            <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+            <p>It was cleaned in 1984 to remove a <mark>"yellow veil"</mark> of dust that had gathered since the previous restoration in the 19th century.</p>
+            <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
           </article>
-          <img src="" alt="Las Meninas" width="720" />
+          <img src="assets/img/explore_old_pic.jpg" alt="Las Meninas" width="720" />
         </div>
       </section>
       <section id="video-journey" class="video-journey">
@@ -130,8 +126,7 @@
           <div class="video-journey__text">
             <h2 class="video-journey__title">Video journey</h2>
             <p class="video-journey__description">
-              Enter and visit one of the most famous museums in the world and
-              enjoy masterpieces such as Mona Lisa or Hammurabi's Code
+              Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code
             </p>
           </div>
         </div>
@@ -140,31 +135,32 @@
         <div class="container container--buy-tickets">
           <h2 class="buy-tickets__title">Buy tickets</h2>
           <div class="buy-tickets__body">
-            <img src="" alt="nice boobs" />
+            <img src="assets/img/tickets_picture.jpg" alt="nice boobs" />
             <form class="buy-tickets-form">
-              <b class="buy-tickets-form__title">Ticket Type</b>
-              <input
-                type="radio"
-                name="perm_ex"
-                value="Permanent exhibition"
-                checked
-              />
-              <input type="radio" name="temp_ex" value="Temporary exhibition" />
-              <input type="radio" name="combo_ex" value="Combined Admission" />
-
-              <b class="buy-tickets-form__title">Amount</b>
-              <input type="number" name="basic_18" value="1" />
-              <input type="number" name="senier_65" value="1" />
-
-              <div class="buy-tickets-form__cost">
-                Total €
-                <div class="buy-ticket-form__number">220</div>
+              <div class="ticket-type">
+                <p class="ticket-type__title">Ticket Type</p>
+                <input id="perm_ex" type="radio" name="exhibition" value="perm_ex" checked />
+                <label for="perm_ex">Permanent exhibition</label>
+                <input id="temp_ex" type="radio" name="exhibition" value="temp_ex" />
+                <label for="temp_ex">Temporary exhibition</label>
+                <input id="combo_ex" type="radio" name="exhibition" value="combo_ex" />
+                <label for="combo_ex">Combined Admission</label>
               </div>
-              <input
-                class="buy-tickets-form__submit-button"
-                type="submit"
-                value="Buy Now"
-              />
+              <div class="ticket-amount">
+                <p class="ticket-amount__title">Amount</p>
+                <label for="inp_basic_18">Basic 18+</label>
+                <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                <input id="inp_basic_18" type="number" name="basic_18" min="0" max="20" value="1" readonly class="basic_18__number" />
+                <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                <label for="inp_senier_65">Senior 65+</label>
+                <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                <input id="inp_senier_65" type="number" name="senier_65" min="0" max="20" value="1" readonly class="senier_65__number" />
+                <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                <div class="buy-tickets-form__cost">Total €
+                  <div class="buy-ticket-form__number">220</div>
+                </div>
+              </div>
+              <input class="buy-tickets-form__submit-button" type="submit" value="Buy Now" />
             </form>
           </div>
         </div>
@@ -190,14 +186,14 @@
               <a href="mailto:info@louvre.fr">info@louvre.fr</a>
             </li>
           </ul>
-          <img src="" alt="map" />
+          <img src="assets/img/map.png" alt="map" />
         </div>
       </section>
     </main>
     <footer>
       <div class="container container--footer">
         <div class="louvre-logo">
-          <img src="" alt="Louvre logo" />
+          <img src="assets/svg/logo.svg" alt="Louvre logo" />
           <div class="louvre-logo__text">Louvre</div>
         </div>
         <nav class="footer-navigation">
@@ -209,9 +205,7 @@
               <a class="navigation-list__link" href="#virtual-tour">Visiting</a>
             </li>
             <li class="footer-navigation__item">
-              <a class="navigation-list__link" href="#picture-explore"
-                >Explore</a
-              >
+              <a class="navigation-list__link" href="#picture-explore">Explore</a>
             </li>
             <li class="footer-navigation__item">
               <a class="navigation-list__link" href="#video-journey">Video</a>
@@ -227,19 +221,19 @@
         <div class="footer-social">
           <ul class="footer-social__list">
             <li class="footer-social__item">
-              <a href="#w"><img src="" alt="Youtube" /></a>
+              <a href="#"><img src="assets/svg/social_media/youtube.svg" alt="Youtube" /></a>
             </li>
             <li class="footer-social__item">
-              <a href="#"><img src="" alt="Instagram" /></a>
+              <a href="#"><img src="assets/svg/social_media/inst.svg" alt="Instagram" /></a>
             </li>
             <li class="footer-social__item">
-              <a href="#"><img src="" alt="Facebook" /></a>
+              <a href="#"><img src="assets/svg/social_media/facebook.svg" alt="Facebook" /></a>
             </li>
             <li class="footer-social__item">
-              <a href="#"><img src="" alt="Twitter" /></a>
+              <a href="#"><img src="assets/svg/social_media/twitter.svg" alt="Twitter" /></a>
             </li>
             <li class="footer-social__item">
-              <a href="#"><img src="" alt="Pinterest" /></a>
+              <a href="#"><img src="assets/svg/social_media/pintrest.svg" alt="Pinterest" /></a>
             </li>
           </ul>
         </div>
