@@ -8,7 +8,6 @@
 
 body {
   height: 100vh;
-  line-height: 180%;
   font-family: "Roboto", sans-serif;
   font-family: "Forum", cursive;
 }
@@ -126,25 +125,115 @@ ul.navigation-list {
 }
 
 .container--welcome {
-  
-padding-top: 114px;
+  padding-top: 114px;
 }
 
+.container--virtual-tour {
+  margin-top: 75px;
+}
+
+.main-title {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text_color-gold {
+  color: #9d8665;
+}
+
+.text_color-white {
+  color: #ffffff;
+}
+
+.main-title_underline:after {
+  content: "";
+  display: block;
+  max-width: 100%;
+  border-bottom: 3px solid #710707;
+  padding-bottom: 25px;
+}
+
+.galery-grid {
+  display: flex;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.galery-card {
+  width: 440px;
+  height: 422px;
+  margin-bottom: 78px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galery-card__title {
+  margin-top: 25px;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.galery-card__title:after {
+  content: "";
+  display: block;
+  max-width: 300px;
+  border-bottom: 3px solid #710707;
+  margin-top: 9px;
+}
+
+.galery-card__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.galery-card__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 10px;
+}
 
 .virtual-tour {
 }
 
 .picture-explore {
+  color: #ffffff;
+  background: #030303;
 }
 
+.container--picture-explore {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+}
 
+.picture-explore__text {
+  width: 660px;
+}
 
-
-
-
-
-
-
+.picture-explore__title {
+}
 
 .reminder {
   position: absolute;
