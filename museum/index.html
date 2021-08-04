@@ -28,7 +28,7 @@
 
     <h1 class="visually-hidden">Welcome to the Louvre</h1>
     <header>
-      <div class="container container--header">
+      <div class="container container_header">
         <div class="louvre-logo">
           <img src="assets/svg/logo.svg" alt="Louvre logo" />
           <div class="louvre-logo__text">Louvre</div>
@@ -57,7 +57,7 @@
 
     <main>
       <section id="welcome" class="welcome">
-        <div class="container container--welcome">
+        <div class="container container_welcome">
           <h2 class="welcome__title">Welcome</h2>
           <h2 class="welcome__title">to the Louvre</h2>
           <p class="welcome__subtitle">From the castle to the museum</p>
@@ -65,7 +65,7 @@
         </div>
       </section>
       <section id="virtual-tour" class="virtual-tour">
-        <div class="container container--virtual-tour">
+        <div class="container container_virtual-tour">
           <h2 class="main-title main-title_underline text_color-gold">Virtual tour</h2>
           <div class="galery-grid">
             <div class="galery-card">
@@ -108,23 +108,25 @@
         </div>
       </section>
       <section id="picture-explore" class="picture-explore">
-        <div class="container container--picture-explore">
-          <div class="picture-explore__text">
+        <div class="container container_picture-explore">
+          <div class="picture-explore-text">
             <h2 class="main-title main-title_underline text_color-white">Picture explore</h2>
-            <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
-            <p>It was cleaned in 1984 to remove a <mark>"yellow veil"</mark> of dust that had gathered since the previous restoration in the 19th century.</p>
-            <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+            <div class="picture-explore-text__body">
+              <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+              <p>It was cleaned in 1984 to remove a <mark>"yellow veil"</mark> of dust that had gathered since the previous restoration in the 19th century.</p>
+              <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+            </div>
           </div>
           <img src="assets/img/explore_old_pic.jpg" alt="Las Meninas" width="720" />
         </div>
       </section>
       <section id="video-journey" class="video-journey">
-        <div class="container">
+        <div class="container container_video-journey">
           <div class="video-journey__video">
             <video src="video.ogv" controls width="1440" height="714"></video>
           </div>
           <div class="video-journey__text">
-            <h2 class="video-journey__title">Video journey</h2>
+            <h2 class="main-title text_color-gold">Video journey</h2>
             <p class="video-journey__description">
               Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code
             </p>
@@ -132,8 +134,8 @@
         </div>
       </section>
       <section id="buy-tickets" class="buy-tickets">
-        <div class="container container--buy-tickets">
-          <h2 class="buy-tickets__title">Buy tickets</h2>
+        <div class="container container_buy-tickets">
+          <h2 class="main-title main-title_underline text_color-white">Buy tickets</h2>
           <div class="buy-tickets__body">
             <img src="assets/img/tickets_picture.jpg" alt="nice boobs" />
             <form class="buy-tickets-form">
@@ -160,39 +162,44 @@
                   Total €
                   <div class="buy-ticket-form__number">220</div>
                 </div>
+                <input class="buy-tickets-form__submit-button" type="submit" value="Buy Now" />
               </div>
-              <input class="buy-tickets-form__submit-button" type="submit" value="Buy Now" />
             </form>
           </div>
         </div>
       </section>
       <section id="contacts" class="contacts">
-        <div class="container container-contacts">
-          <h2 class="contacts__title">Contacts</h2>
-          <div class="contacts-list__title">
-            <p>Palais Royal</p>
-            <p>Musee du Louvre</p>
+        <div class="container container_contacts">
+          <h2 class="main-title main-title_underline">Contacts</h2>
+          <div class="contacts-body">
+            <div class="contacts-text">
+              <div class="contacts-list__title">
+                <p>Palais Royal</p>
+                <p>Musee du Louvre</p>
+              </div>
+              <ul class="contacts-list">
+                <li class="contacts-list__item">
+                  <div>address:</div>
+                  <a>75001 Paris, France</a>
+                </li>
+                <li class="contacts-list__item">
+                  <div>phone:</div>
+                  <a href="tel:+330140205050">+33(0) 1 40 20 50 50</a>
+                </li>
+                <li class="contacts-list__item">
+                  <div>mail:</div>
+                  <a href="mailto:info@louvre.fr">info@louvre.fr</a>
+                </li>
+              </ul>
+            </div>
+
+            <img src="assets/img/map.png" alt="map" />
           </div>
-          <ul class="contacts-list">
-            <li class="contacts-list__item">
-              <div>address:</div>
-              <a>75001 Paris, France</a>
-            </li>
-            <li class="contacts-list__item">
-              <div>phone:</div>
-              <a href="tel:+330140205050">+33(0) 1 40 20 50 50</a>
-            </li>
-            <li class="contacts-list__item">
-              <div>mail:</div>
-              <a href="mailto:info@louvre.fr">info@louvre.fr</a>
-            </li>
-          </ul>
-          <img src="assets/img/map.png" alt="map" />
         </div>
       </section>
     </main>
     <footer>
-      <div class="container container--footer">
+      <div class="container container_footer">
         <div class="louvre-logo">
           <img src="assets/svg/logo.svg" alt="Louvre logo" />
           <div class="louvre-logo__text">Louvre</div>
