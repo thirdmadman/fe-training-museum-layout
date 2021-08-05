@@ -51,6 +51,7 @@ header {
   align-items: center;
   font-size: 28px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .louvre-logo__text {
   margin-left: 20px;
@@ -76,12 +77,6 @@ header {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
-}
-
-ul.navigation-list {
-}
-
-ul.navigation-list {
 }
 
 .navigation-list__item {
@@ -323,12 +318,32 @@ ul.navigation-list {
 
 .buy-tickets-form {
   display: flex;
-
   color: #ffffff;
+  justify-content: space-between;
+  width: 660px;
 }
 
 .ticket-type {
   width: 270px;
+}
+
+.ticket-type_list {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.ticket-type_list > li {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-type_list > li > label {
+  margin-left: 23px;
 }
 
 .ticket-type__title {
@@ -352,10 +367,72 @@ ul.navigation-list {
   line-height: 33px;
 }
 
+.basic-18 {
+  margin-top: 11px;
+}
+
+.input-num-label {font-family: Roboto;font-style: normal;font-weight: 300;font-size: 22px;line-height: 26px;text-align: left;display: block;}
+
+.inp-num {
+  margin-top: 14px;
+  width: 150px;
+  border: 3px solid #ffffff;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+/* identical to box height */
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 14px;
+}
+
+.basic-18__number {
+    all: unset;
+    text-align: center;
+}
+
+
+.inp-num button {
+    all: unset;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+/* identical to box height */
+    text-align: center;
+    color: #ffffff;
+}
+
+.senier-65 {
+  margin-top: 35px;
+}
+
+.senier-65__number {
+        all: unset;
+    text-align: center;
+}
+
 .buy-tickets-form__cost {
 }
 
+.buy-tickets-form__cost {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  margin-top: 50px;
+}
+
 .buy-ticket-form__number {
+  display: inline;
 }
 
 .buy-tickets-form__submit-button {
@@ -371,6 +448,7 @@ ul.navigation-list {
   text-align: center;
   letter-spacing: 2px;
   color: #000000;
+  margin-top: 50px;
 }
 
 .contacts {
@@ -381,41 +459,83 @@ ul.navigation-list {
 }
 
 .contacts-body {
-  
-display: flex;
-  
-justify-content: space-between;
-  
-margin-top: 75px;
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 75px;
 }
-.contacts-text {margin-top: 10px;}
+.contacts-text {
+  margin-top: 10px;
+}
 
-.contacts-list__title {font-family: Roboto;font-style: normal;font-weight: 500;font-size: 28px;line-height: 33px;}
+.contacts-list__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
 
-.contacts-list {font-family: Roboto;font-style: normal;font-weight: 300;font-size: 22px;line-height: 26px;list-style-type: none;margin-top: 36px;}
+.contacts-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  list-style-type: none;
+  margin-top: 36px;
+}
 
 .contacts-list__item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contacts-list__item * {
-  
-display: inline-block;
-  
-color: #000000;
-  
-text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
 }
 
 footer {
   background-color: #030303;
 }
 
-.container_footer {padding: 75px 0px;display: flex;}
+.container_footer {
+  padding: 75px 0px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .navigation__list {
-  
-display: flex;
+  display: flex;
+}
+
+.footer-social__list {
+  display: flex;
+  width: 336px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.footer-social__item {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social__item > a {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reminder {
