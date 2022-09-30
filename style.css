@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,9 +10,8 @@
 
 body {
   height: 100vh;
-  font-family: "Roboto", sans-serif;
-  font-family: "Forum", cursive;
-  /* font-weight: 300; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Forum', cursive;
 }
 
 .container {
@@ -45,7 +44,7 @@ header {
 }
 
 .louvre-logo {
-  font-family: "Forum", cursive;
+  font-family: 'Forum', cursive;
   height: 50px;
   display: flex;
   align-items: center;
@@ -53,6 +52,7 @@ header {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .louvre-logo__text {
   margin-left: 20px;
   font-family: Forum;
@@ -60,14 +60,15 @@ header {
   font-weight: normal;
   font-size: 28px;
   line-height: 50px;
-  /* identical to box height, or 179% */
   letter-spacing: 5px;
   text-transform: uppercase;
 }
+
 .header-navigation {
   height: 50px;
   width: 720px;
 }
+
 .navigation-list {
   list-style-type: none;
   display: flex;
@@ -75,7 +76,7 @@ header {
   align-items: center;
   justify-content: space-between;
   font-size: 22px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
 }
 
@@ -90,7 +91,6 @@ header {
   font-weight: 200;
   font-size: 22px;
   line-height: 50px;
-  /* identical to box height, or 227% */
   letter-spacing: 2px;
 }
 
@@ -114,7 +114,6 @@ header {
 .welcome__subtitle {
   font-family: Roboto;
   font-style: normal;
-  /* font-weight: 700; */
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 2px;
@@ -132,8 +131,6 @@ header {
   font-style: normal;
   font-weight: 100;
   font-size: 22px;
-
-  /* identical to box height */
   text-align: center;
   letter-spacing: 2px;
 }
@@ -206,7 +203,7 @@ header {
 }
 
 .galery-card__title:after {
-  content: "";
+  content: '';
   display: block;
   max-width: 300px;
   border-bottom: 2px solid #710707;
@@ -371,7 +368,15 @@ header {
   margin-top: 11px;
 }
 
-.input-num-label {font-family: Roboto;font-style: normal;font-weight: 300;font-size: 22px;line-height: 26px;text-align: left;display: block;}
+.input-num-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  display: block;
+}
 
 .inp-num {
   margin-top: 14px;
@@ -383,7 +388,6 @@ header {
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
-/* identical to box height */
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -392,21 +396,19 @@ header {
 }
 
 .basic-18__number {
-    all: unset;
-    text-align: center;
+  all: unset;
+  text-align: center;
 }
 
-
 .inp-num button {
-    all: unset;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-/* identical to box height */
-    text-align: center;
-    color: #ffffff;
+  all: unset;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .senier-65 {
@@ -414,8 +416,8 @@ header {
 }
 
 .senier-65__number {
-        all: unset;
-    text-align: center;
+  all: unset;
+  text-align: center;
 }
 
 .buy-tickets-form__cost {
@@ -427,7 +429,6 @@ header {
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  /* identical to box height */
   margin-top: 50px;
 }
 
@@ -465,6 +466,7 @@ header {
 
   margin-top: 75px;
 }
+
 .contacts-text {
   margin-top: 10px;
 }
@@ -538,36 +540,6 @@ footer {
   align-items: center;
 }
 
-.reminder {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background: #ffffffed;
-}
-
-.reminder__content {
-  max-width: 640px;
-  line-height: 26px;
-  position: relative;
-}
-
-.reminder__title {
-  padding: 20px;
-  font-size: 18px;
-}
-
-.reminder__description {
-  padding: 5px;
-}
-
-.reminder__description > span {
-  display: block;
-  margin-top: 10px;
-}
-
 .agree-button {
   position: absolute;
   right: 0;
@@ -575,6 +547,7 @@ footer {
   background: none;
   border: none;
 }
+
 .agree-button:hover {
   cursor: pointer;
   color: red;
